@@ -81,6 +81,7 @@ const portfolioData = {
     contact: {
         email: "yramkalyan0707@gmail.com",
         linkedin: "https://www.linkedin.com/in/ram0707",
-        github: "https://github.com/Ramkalyan7"
+        github: "https://github.com/Ramkalyan7",
+        resume: "https://docs.google.com/document/d/1qNzVhoG7l1up2b_ToSokoWXYYy7nx8pV/edit?usp=sharing&ouid=101031063065218383384&rtpof=true&sd=true"
     }
 };

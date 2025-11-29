@@ -1,92 +1,147 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ramkalyan | Full Stack Developer</title>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Montserrat:wght@300;500;700;800&display=swap" rel="stylesheet">
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Montserrat:wght@300;500;700;800&display=swap"
+      rel="stylesheet"
+    />
     <!-- Link to External CSS -->
-    <link rel="stylesheet" href="Style.css">
-</head>
-<body>
-
+    <link rel="stylesheet" href="Style.css" />
+  </head>
+  <body>
     <nav>
-        <div class="container nav-content">
-            <div class="logo">RAMKALYAN.DEV</div>
-            <div class="nav-links">
-                <a href="#about">About</a>
-                <a href="#experience">Work</a>
-                <a href="#projects">Projects</a>
-                <a href="#contact">Contact</a>
-            </div>
+      <div class="container nav-content">
+        <div class="logo">RAMKALYAN.DEV</div>
+        <div class="nav-links">
+          <a href="#about">About</a>
+          <a href="#experience">Work</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+          <a
+            href="#"
+            id="nav-resume"
+            target="_blank"
+            style="
+              color: var(--accent);
+              border: 1px solid var(--accent);
+              padding: 5px 15px;
+              border-radius: 4px;
+            "
+            >Resume</a
+          >
         </div>
+      </div>
     </nav>
 
     <section class="hero">
-        <div class="hero-content">
-            <p style="color: var(--accent); letter-spacing: 2px; font-weight: 600;">HI, I AM</p>
-            <h1 id="hero-name"></h1>
-            <h2><span id="typing-text"></span></h2>
-            <p id="hero-desc" style="max-width: 500px; margin: 0 auto 30px auto;"></p>
-            <a href="#projects" class="hero-btn">View My Work</a>
-        </div>
+      <div class="hero-content">
+        <p style="color: var(--accent); letter-spacing: 2px; font-weight: 600">
+          HI, I AM
+        </p>
+        <h1 id="hero-name"></h1>
+        <h2><span id="typing-text"></span></h2>
+        <p
+          id="hero-desc"
+          style="max-width: 500px; margin: 0 auto 30px auto"
+        ></p>
+        <a href="#projects" class="hero-btn">View My Work</a>
+      </div>
     </section>
 
     <section id="about" class="about-section container reveal">
-        <h2 class="section-title">Snapshot</h2>
-        <!-- Content injected by JS -->
-        <div id="about-content"></div>
-        <div id="tech-grid" class="tech-grid"></div>
+      <h2 class="section-title">Snapshot</h2>
+      <!-- Content injected by JS -->
+      <div id="about-content"></div>
+      <div id="tech-grid" class="tech-grid"></div>
     </section>
 
     <section id="experience" class="exp-section">
-        <div class="container">
-            <h2 class="section-title reveal">Experience</h2>
-            <!-- Timeline injected by JS -->
-            <div id="experience-timeline" class="timeline"></div>
-        </div>
+      <div class="container">
+        <h2 class="section-title reveal">Experience</h2>
+        <!-- Timeline injected by JS -->
+        <div id="experience-timeline" class="timeline"></div>
+      </div>
     </section>
 
     <section id="projects" class="projects-section container">
-        <h2 class="section-title reveal">Featured Projects</h2>
-        <!-- Projects injected by JS -->
-        <div id="projects-grid" class="projects-grid"></div>
+      <h2 class="section-title reveal">Featured Projects</h2>
+      <!-- Projects injected by JS -->
+      <div id="projects-grid" class="projects-grid"></div>
     </section>
 
     <section class="mindset-section">
-        <div class="container mindset-grid">
-            <div class="reveal">
-                <h3 style="color: var(--accent);">How I Think</h3>
-                <p><strong>Driven by Impact:</strong> I don't code in a vacuum. At PlaySimple, every line of code contributed to a metric. If a feature doesn't improve LTV or retention, it needs rethinking.</p>
-                <p><strong>The Right Tool:</strong> Next.js & TypeScript are my defaults for velocity. I use Node.js for rapid APIs but turn to Go when raw performance and concurrency are paramount.</p>
-                <p><strong>Values:</strong> "It works" isn't enough. I value clean architecture and automated testing (Jest/Cypress).</p>
-            </div>
-            <div class="learn-log reveal">
-                <h4 style="font-family:'JetBrains Mono'">> Current_Focus.log</h4>
-                <p style="color: #fff; margin-top: 10px;"><strong>Topic:</strong> Kubernetes & Docker</p>
-                <p><strong>Why:</strong> Scaling from 10 to 10,000 users breaks things that work locally. I'm moving beyond "localhost" to master distributed system orchestration.</p>
-                <p><strong>Building:</strong> Containerizing existing projects and setting up Kubernetes clusters for load balancing.</p>
-            </div>
+      <div class="container mindset-grid">
+        <div class="reveal">
+          <h3 style="color: var(--accent)">How I Think</h3>
+          <p>
+            <strong>Driven by Impact:</strong> I don't code in a vacuum. At
+            PlaySimple, every line of code contributed to a metric. If a feature
+            doesn't improve LTV or retention, it needs rethinking.
+          </p>
+          <p>
+            <strong>The Right Tool:</strong> Next.js & TypeScript are my
+            defaults for velocity. I use Node.js for rapid APIs but turn to Go
+            when raw performance and concurrency are paramount.
+          </p>
+          <p>
+            <strong>Values:</strong> "It works" isn't enough. I value clean
+            architecture and automated testing (Jest/Cypress).
+          </p>
         </div>
+        <div class="learn-log reveal">
+          <h4 style="font-family: 'JetBrains Mono'">> Current_Focus.log</h4>
+          <p style="color: #fff; margin-top: 10px">
+            <strong>Topic:</strong> Kubernetes & Docker
+          </p>
+          <p>
+            <strong>Why:</strong> Scaling from 10 to 10,000 users breaks things
+            that work locally. I'm moving beyond "localhost" to master
+            distributed system orchestration.
+          </p>
+          <p>
+            <strong>Building:</strong> Containerizing existing projects and
+            setting up Kubernetes clusters for load balancing.
+          </p>
+        </div>
+      </div>
     </section>
 
     <section id="contact" class="contact-section container reveal">
-        <div class="cta-box">
-            <h2>Let's Talk</h2>
-            <p>I am looking for a team that values shipping fast and measuring impact. If you need a Full Stack engineer who can own features end-to-end, let's connect.</p>
-            <p class="contact-email" style="margin-top: 20px; font-size: 1.2rem; color: #fff;"></p>
-            
-            <div class="contact-links">
-                <a href="#" class="social-btn contact-email"><i class="fas fa-envelope"></i></a>
-                <a href="#" id="contact-linkedin" target="_blank" class="social-btn"><i class="fab fa-linkedin"></i></a>
-                <a href="#" id="contact-github" target="_blank" class="social-btn"><i class="fab fa-github"></i></a>
-            </div>
+      <div class="cta-box">
+        <h2>Let's Talk</h2>
+        <p>
+          I am looking for a team that values shipping fast and measuring
+          impact. If you need a Full Stack engineer who can own features
+          end-to-end, let's connect.
+        </p>
+        <p
+          class="contact-email"
+          style="margin-top: 20px; font-size: 1.2rem; color: #fff"
+        ></p>
+
+        <div class="contact-links">
+          <a href="#" class="social-btn contact-email"
+            ><i class="fas fa-envelope"></i
+          ></a>
+          <a href="#" id="contact-linkedin" target="_blank" class="social-btn"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+          <a href="#" id="contact-github" target="_blank" class="social-btn"
+            ><i class="fab fa-github"></i
+          ></a>
         </div>
+      </div>
     </section>
 
     <!-- Scripts -->
     <script src="js/data.js"></script>
     <script src="js/app.js"></script>
-</body>
+  </body>
 </html>
