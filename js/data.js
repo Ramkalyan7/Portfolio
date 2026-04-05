@@ -1,87 +1,134 @@
 const portfolioData = {
     hero: {
-        name: "RAMKALYAN",
-        typingText: [
-            "Full Stack Developer", 
-            "Backend Engineer",
-            "System Architect" 
-        ],
-        description: "Building scalable backend systems and high-performance web applications."
+        name: "Hi, I am Ram 👋",
+        description: "Full Stack Developer & AI Engineer building high-performance web apps, scalable systems, and intelligent AI products."
     },
     about: {
         paragraphs: [
-            `I am a Full Stack Developer who bridges the gap between engaging UI and high-performance backend architecture. 
-            With deep expertise in <span class="highlight">React, Next.js, and Node.js</span>, I don't just write code—I build systems that scale.`,
-            
-            `My work at PlaySimple Games proved that well-engineered features directly drive revenue, boosting LTV by over 25% across multiple initiatives. 
-            I value clean architecture, data-driven iteration, and shipping products that matter.`
-        ],
-        techStack: [
-            "TypeScript","React","Node.js", "Next.js","Tailwind","MongoDB",
-            "PostgresSQL","Jest","Vitest","Cypress","Docker","AWS","Github","Go","C#","Unity"
+            "Strong across frontend, backend, realtime features, and applied AI workflows."
         ]
     },
     experience: [
         {
             role: "Associate Software Engineer",
             company: "PlaySimple Games",
-            date: "May 2025 – Oct 2025",
-            description: "Led the development of core gameplay mechanics for 'Word Roll,' bridging Unity client-side logic with high-performance Go backend services.",
-            achievements: [
-                "<strong>Spinner Feature:</strong> Architected a complex in-game reward system with custom animations. <span class='highlight'>→ 12% increase in LTV</span>.",
-                "<strong>Cross-Platform Shortcuts:</strong> Engineered a reusable Unity package for Android/iOS shortcuts. <span class='highlight'>→ 90% reduction</span> in integration time."
+            type: "full time",
+            date: "May 2025 - Oct 2025",
+            logo: "assets/logos/playsimple.svg",
+            description: "Built Word Roll features in Unity and C# with Go backend integrations.",
+            highlights: [
+                "Spinner feature shipped: +12% LTV."
             ]
         },
         {
             role: "SDE Intern",
             company: "PlaySimple Games",
-            date: "Feb 2024 – May 2025",
-            description: "Owned critical social and monetization features that directly impacted the game's bottom line.",
-            achievements: [
-                "<strong>Friends System:</strong> Built the entire social infrastructure (invites, discovery, status). <span class='highlight'>→ 7% LTV uplift</span>.",
-                "<strong>Monetization Engine:</strong> Deployed new In-App Purchase (IAP) strategies and pricing models. <span class='highlight'>→ 9% LTV boost</span>.",
-                "<strong>Competitive Features:</strong> Revamped leaderboard algorithms for real-time ranking accuracy. <span class='highlight'>→ 4% LTV boost</span>."
+            type: "internship",
+            date: "Feb 2024 - May 2025",
+            logo: "assets/logos/playsimple.svg",
+            description: "Worked on social, leaderboard, and monetization systems.",
+            highlights: [
+                "Friends, leaderboard, and IAP improvements shipped."
             ]
         },
         {
             role: "Web Developer Intern",
             company: "Rish Electromobility",
-            date: "June 2022 – Dec 2022",
-            description: "", 
-            achievements: [
-                "<strong>Fleet Command Center:</strong> Developed a dashboard tracking real-time vehicle availability and maintenance cycles.",
-                "<strong>Subscription Engine:</strong> Automated customer lifecycle—onboarding, payments, and renewals—replacing manual workflows."
+            type: "remote",
+            date: "Jun 2022 - Dec 2022",
+            logo: "assets/logos/rish.svg",
+            description: "Built internal admin and subscription tooling.",
+            highlights: [
+                "React, Redux, Tailwind, and Node.js stack."
             ]
         }
     ],
     projects: [
         {
             title: "AI Quiz App",
-            category: "Real-Time Multiplayer",
-            challenge: "Building a quiz app that handles concurrent live connections, syncs scores instantly, and generates infinite content.",
-            solution: "I engineered a WebSocket-driven architecture where state is synchronized in real-time, integrating the Perplexity API to generate unique, context-aware questions on the fly.",
-            techStack: ["Next.js", "TypeScript", "Express.js", "PostgreSQL", "Perplexity API"],
+            meta: "⚡ multiplayer + ai",
+            description: "Live quiz app with AI-generated questions and WebSocket multiplayer.",
+            techStack: ["Next.js", "TypeScript", "Express", "SQL", "LLM APIs"],
             links: {
                 github: "https://github.com/Ramkalyan7/Quiz-app",
                 demo: "https://quiz-app-web-three.vercel.app/"
             }
         },
         {
-            title: "Echo Room",
-            category: "Video Conferencing",
-            challenge: "Ensuring reliable video conferencing with low latency, secure access, and complex state management.",
-            solution: "A production-grade video suite built on WebRTC (via GetStream). I prioritized security with Clerk authentication and usability with persistent 'Personal Rooms' for recurring meetings.",
-            techStack: ["Next.js", "TypeScript", "GetStream", "Clerk", "Shadcn UI"],
+            title: "CourseUp",
+            meta: "📚 course generation",
+            description: "LLM-powered course builder with modules, lessons, and assessments.",
+            techStack: ["Next.js", "TypeScript", "PostgreSQL", "NextAuth"],
             links: {
-                github: "https://github.com/Ramkalyan7/Echo-Room-V2",
-                demo: "https://echo-room-v2.vercel.app/"
+                github: "https://github.com/Ramkalyan7/Course-up",
+                demo: "https://course-up-weld.vercel.app/"
             }
+        },
+        {
+            title: "YouTube to LaTeX Agent",
+            meta: "🤖 ai automation",
+            description: "Turns educational videos into LaTeX documents and PDFs.",
+            techStack: ["FastAPI", "React", "Python"],
+            links: {
+                github: "https://github.com/Ramkalyan7/YouTube-URL-to-LaTeX-Book-Creator-Agent",
+                demo: "https://github.com/Ramkalyan7/YouTube-URL-to-LaTeX-Book-Creator-Agent"
+            }
+        },
+                {
+            title: "Echo Room",
+            meta: "🎥 video conferencing",
+            description: "Video conferencing app built using Next.js and TypeScript.",
+            techStack: ["Next.js", "TypeScript", "GetStream API", "Tailwind"],
+            links: {
+                github: "https://echo-room-v2.vercel.app",
+                demo: "https://github.com/Ramkalyan7/Echo-Room-V2"
+            }
+        }
+    ],
+    education: [
+        {
+            school: "Lovely Professional University",
+            detail: "B.Tech CSE / CGPA 8.08",
+            date: "2021 - 2025",
+            logo: "assets/logos/lpu.svg"
         }
     ],
     contact: {
         email: "yramkalyan0707@gmail.com",
+        phone: "8499027994",
         linkedin: "https://www.linkedin.com/in/ram0707",
         github: "https://github.com/Ramkalyan7",
+        x: "https://x.com/Ramkalyan7",
         resume: "https://docs.google.com/document/d/1qNzVhoG7l1up2b_ToSokoWXYYy7nx8pV/edit?usp=sharing&ouid=101031063065218383384&rtpof=true&sd=true"
-    }
+    },
+    skills: [
+        "JavaScript",
+        "TypeScript",
+        "Python",
+        "React",
+        "Next.js",
+        "Tailwind CSS",
+        "Redux",
+        "Node.js",
+        "Express",
+        "FastAPI",
+        "SQL",
+        "MongoDB",
+        "Redis",
+        "WebSockets",
+        "WebRTC",
+        "Cloudflare Workers",
+        "Hono",
+        "Jest",
+        "Vitest",
+        "Docker",
+        "AWS",
+        "GitHub",
+        "Linux",
+        "CI/CD",
+        "Unity",
+        "C#",
+        "C++",
+         "Go",
+    ]
 };
