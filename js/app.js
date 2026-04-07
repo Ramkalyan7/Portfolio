@@ -71,7 +71,6 @@ function renderProjects() {
                     <a href="${project.links.demo}" target="_blank" rel="noreferrer">live</a>
                 </div>
             </div>
-            <div class="project-meta">selected</div>
         `;
 
         projectList.appendChild(article);

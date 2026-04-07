@@ -92,7 +92,6 @@ a {
 
 .content-section h2,
 .item-meta,
-.project-meta,
 .project-links a {
     text-transform: uppercase;
     letter-spacing: 0.14em;
@@ -188,8 +187,7 @@ a {
     margin-top: 8px;
 }
 
-.item-meta,
-.project-meta {
+.item-meta {
     color: var(--muted);
     white-space: nowrap;
     font-size: 0.62rem;
@@ -312,8 +310,7 @@ a {
         grid-template-columns: 1fr;
     }
 
-    .item-meta,
-    .project-meta {
+    .item-meta {
         white-space: normal;
     }
 
