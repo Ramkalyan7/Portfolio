@@ -55,6 +55,16 @@ const portfolioData = {
             }
         },
         {
+            title: "Production RAG system",
+            meta:"",
+            description: "a full-stack retrieval-augmented generation application for creating private, project-based knowledge spaces.",
+            techStack: ["FastAPI", "React","TypeScript", "Python", "LLM APIs", "PostgreSQL"],
+            links: {
+                github: "https://github.com/Ramkalyan7/Personal-RAG",
+                demo: "https://ask-vault-one.vercel.app/"
+            }
+        },
+        {
             title: "CourseUp",
             meta: "📚 course generation",
             description: "LLM-powered course builder with modules, lessons, and assessments.",
@@ -112,6 +122,8 @@ const portfolioData = {
         "Node.js",
         "Express",
         "FastAPI",
+        "LLM APIs",
+        "AI Agents",
         "SQL",
         "MongoDB",
         "Redis",
