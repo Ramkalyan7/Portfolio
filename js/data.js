@@ -11,6 +11,16 @@ const portfolioData = {
   },
   experience: [
     {
+      role: "Software Engineer",
+      company: "Raja Software Labs",
+      type: "full time",
+      date: "April 2026 - present",
+      logo: "assets/logos/playsimple.svg",
+      description:
+        "building high-performance applications and scalable systems",
+      highlights: [],
+    },
+    {
       role: "Associate Software Engineer",
       company: "PlaySimple Games",
       type: "full time",
